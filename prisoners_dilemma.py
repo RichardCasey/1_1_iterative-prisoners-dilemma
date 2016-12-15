@@ -1,5 +1,5 @@
 from __future__ import print_function
-#meme_team
+#team_name = the meme team (RJ)
 ##### 
 # Computer Science and Software Engineering
 # PLTW AP CS Principles
