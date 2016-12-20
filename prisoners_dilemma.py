@@ -42,7 +42,7 @@ betray = example1
 collude = example0
 
 modules = [example0, example1, example2, example3, example4, example5, example6, example7,
-team0, team1, team2, team3, team4, team5, team6, team7, team8, team9, team10, 
+team0, team1, team4, team3, team4, team5, team6, team7, team8, team9, team10,
 team11, team12, team13, team14]
 for module in modules:
     reload(module)
@@ -69,7 +69,7 @@ def main_play(modules):
     # To file output, store all teams' code and all teams' section 3 reports.
     post_to_file(section0+section1+section2 + code + ''.join(section3))
     return scores, moves, [section0, section1, section2, section3]
-        
+    #Richard
 def play_tournament(modules):
     '''Each argument is a module name
     Each module must contain 
